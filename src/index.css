@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+:root{
+  --light-col: rgb(228, 228, 228);
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.App{
+  margin: 0 5rem;
+}
+.header-table{
+  text-align: center;
+  border: 2px solid black;
+  width: 100%;
+  
+}
+ol, ul{
+  padding-left: 1rem;
+}
+.header-table th{
+  word-wrap: break-word;
+  word-break: break-all;
+  background-color: var(--light-col);
+}
+
+tr:hover{
+  background-color: var(--light-col);
+}
+
+#table-of-contents{
+  margin-top: 2rem;
+}
+
+#headers, #emphasis, #lists, #links, #images, #code, #tables, #blockquotes, #inline-html, #horizontal-rule{
+  height: 100vh;
+  margin-top: 2rem;
+}
